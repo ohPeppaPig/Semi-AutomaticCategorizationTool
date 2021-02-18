@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--需要内容自己添加，可以什么都不写-->
+    <settings>
+        <!--开启驼峰命名匹配规则-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+
+        <!--<setting name="cacheEnabled" value="true"/>-->
+
+        <!--<setting name="useGeneratedKeys" value="true"/>-->
+
+        <!-- 设置控制台打印sql -->
+        <!--<setting name="logImpl" value="stdout_logging" />-->
+
+    </settings>
+
+</configuration>
