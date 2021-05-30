@@ -10,4 +10,8 @@ public interface UserDao {
 
     public List<User> findAll();
 
+
+
+    public int commentReply();
+
 }

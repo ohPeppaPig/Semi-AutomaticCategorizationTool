@@ -1,0 +1,1 @@
+该发布记录注销账号的用户数据 sql: UPDATE `user`.`user` SET `mobile`= null, `person_info_public`='64' WHERE `id` in ('12110103','12241995');
